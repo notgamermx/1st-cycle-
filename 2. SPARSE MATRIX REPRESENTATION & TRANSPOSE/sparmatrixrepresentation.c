@@ -49,5 +49,14 @@ int main() {
         }
     }
 
+    // Print Transpose in Normal Form
+    printf("\nTranspose in Normal Form:\n");
+    for (i = 0; i < cols; i++) {
+        for (j = 0; j < rows; j++) {
+            printf("%d ", a[j][i]);
+        }
+        printf("\n");
+    }
+
     return 0;
 }
